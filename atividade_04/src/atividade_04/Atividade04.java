@@ -13,19 +13,19 @@ public static void main(String[] args) {
 		
 		float n1, n2, n3, n4, calculo;
 		
-		System.out.println("Numero 1:");
+		System.out.println("Numero1:");
 		n1 = sc.nextFloat();
-		System.out.println("Numero 2:");
+		System.out.println("Numero2:");
 		n2 = sc.nextFloat();
-		System.out.println("Numero 3:");
+		System.out.println("Numero3:");
 		n3 = sc.nextFloat();
-		System.out.println("Numero 4:");
+		System.out.println("Numero4:");
 		n4 = sc.nextFloat();
 
 		
 		calculo = (n1*n2)-(n3*n4);
 		
-		System.out.println("Calculo: "+ df.format(calculo));
+		System.out.println("Diferenca: "+ df.format(calculo));
 		
 	}
 
