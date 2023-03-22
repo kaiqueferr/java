@@ -31,8 +31,6 @@ public class Vetor01 {
 		{
 			System.out.printf("Não ha");
 		}
-		
-
 	}
 
 }
