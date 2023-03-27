@@ -3,6 +3,7 @@ package conta;
 import java.util.Scanner;
 
 import conta.model.Conta;
+import conta.model.ContaCorrente;
 import conta.util.*;
 
 public class Menu {
@@ -22,6 +23,10 @@ public class Menu {
 		c1.sacar(10.0f);
 		
 		c1.visualizar();
+		
+		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "Jeniffer", 100.000f, 10.00f);
+		
+		cc1.visualizar();
 		
 		while (true) {
 

@@ -7,7 +7,6 @@ public class Produto1 {
 	private int id;
 	private String nome;
 	private int versao;
-	
 	private LocalDate dataLancamento;
 	private String produtora;
 	private float preco;
@@ -74,12 +73,12 @@ public class Produto1 {
 		System.out.println("***********************************************");
 		System.out.println("               dados do produto                ");
 		System.out.println("***********************************************");
-		System.out.println("N da conta" + this.id);
-		System.out.println("N da agencia" + this.nome);
-		System.out.println("Tio da conta" + this.versao );
-		System.out.println("Titular:" + this.dataLancamento );
-		System.out.println("Saldo: " + this.produtora);
-		System.out.println("Saldo: " + this.preco);
+		System.out.println("ID : " + this.id);
+		System.out.println("Nome : " + this.nome);
+		System.out.println("-V : " + this.versao );
+		System.out.println("Lancado em:" + this.dataLancamento );
+		System.out.println("Produtora : " + this.produtora);
+		System.out.println("Preco : " + this.preco);
 		
 	}
 

@@ -2,18 +2,18 @@ package atividade_poo;
 
 public class Cliente {
 	
+	int registro;
 	String nome;
-	String cpf;
-	String dataNascimento;
 	String endereco;
 	int compras;
+	boolean vantagens;
 	
-	public Cliente(String nome, String cpf, String dataNascimento, String endereco, int compras) {
+	public Cliente(int registro,String nome, String endereco, int compras, boolean vantagens) {
+		this.registro = registro;
 		this.nome = nome;
-		this.cpf = cpf;
-		this.dataNascimento = dataNascimento;
 		this.endereco = endereco;
 		this.compras = compras;
+		this.vantagens = vantagens;
 	}
 	
 	public String getNome() {
@@ -22,18 +22,7 @@ public class Cliente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getCpf() {
-		return cpf;
-	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-	public String getDataNascimento() {
-		return dataNascimento;
-	}
-	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
+
 	public String getEndereco() {
 		return endereco;
 	}
@@ -52,9 +41,9 @@ public class Cliente {
 		System.out.println("***********************************************");
 		System.out.println("               dados do cliente                ");
 		System.out.println("***********************************************");
+		System.out.println("Registro:" + this.registro );
+		System.out.println("Vantagens : " + this.vantagens );
 		System.out.println("Nome: " + this.nome);
-		System.out.println("CPF: " + this.cpf );
-		System.out.println("Nascimento :" + this.dataNascimento);
 		System.out.println("Endereco :" + this.endereco );
 		System.out.println("No Compras : " + this.compras );
 
