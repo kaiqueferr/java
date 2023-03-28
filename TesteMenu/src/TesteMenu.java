@@ -4,7 +4,7 @@ public class TesteMenu {
 	public static void main(String[] args) {
 		
 		
-		String[] a = {"Titulo","item um", "item dos", "item 3", "item 4" };
+		String[] a = {"Star War","Lucas Filmes", "1534", "H. Ford", "Top" , "offdff"};
 		
 		Menu menu = new Menu(a);
 		
